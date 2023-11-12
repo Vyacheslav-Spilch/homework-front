@@ -1,14 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
-export const Menu = () => {
+
+
+
+export const Menu = (props: {menuItems: Array <string>}) => {
     return (
         <StyledMenu>
                 <ul>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li>
+                    {
+                        props.menuItems.map(el => <li>
+                            <a href="">{el}</a>
+                        </li>)
+                    }
+                    {/* <li>
                         <a href="">Skills</a>
                     </li>
                     <li>
@@ -19,7 +24,7 @@ export const Menu = () => {
                     </li>
                     <li>
                         <a href="">Contact</a>
-                    </li>
+                    </li> */}
                 </ul>
             </StyledMenu>
     )
@@ -36,7 +41,8 @@ const StyledMenu = styled.nav`
     }
     a {
         text-decoration: none;
-        color: rgb(166, 5, 239);
+        color: rgb(61, 67, 131);
+        font-weight: bold;
         &:hover {
             color: green;
         }

@@ -10,5 +10,4 @@ export const SectionTitle = styled.h2<SectionTitlePropsType>`
     text-align: center;
     margin: 20px 0;
     letter-spacing: 2px;
-   
 `

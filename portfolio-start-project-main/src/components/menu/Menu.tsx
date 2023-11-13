@@ -4,47 +4,42 @@ import styled from "styled-components";
 
 
 
-export const Menu = (props: {menuItems: Array <string>}) => {
+export const Menu = (props: {
+    menuItems: Array <string>,
+    projectsItems?: Array <string>,
+}) => {
     return (
-        <StyledMenu>
+        <StyledMenu >
                 <ul>
                     {
-                        props.menuItems.map(el => <li>
-                            <a href="">{el}</a>
-                        </li>)
+                        props.menuItems.map((el, index) =>{
+                            return <li key={index}>
+                                <a href="">{el}</a>
+                            </li>
+                        })
                     }
-                    {/* <li>
-                        <a href="">Skills</a>
-                    </li>
-                    <li>
-                        <a href="">Works</a>
-                    </li>
-                    <li>
-                        <a href="">Testimony</a>
-                    </li>
-                    <li>
-                        <a href="">Contact</a>
-                    </li> */}
                 </ul>
             </StyledMenu>
     )
 }
 
+
+
 const StyledMenu = styled.nav`
-    width: 50%;
     padding: 30px;
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 30px;
         list-style-type: none;
         
     }
     a {
         text-decoration: none;
-        color: rgb(61, 67, 131);
+        color: rgb(77, 86, 182);
         font-weight: bold;
         &:hover {
-            color: green;
+            color: #806d00;
         }
     }
 `

@@ -36,10 +36,14 @@ const StyledMenu = styled.nav`
     }
     a {
         text-decoration: none;
-        color: rgb(77, 86, 182);
+        color: rgb(255, 255, 255, 0.6);
         font-weight: bold;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
         &:hover {
-            color: #806d00;
+            color: #fff;
+            font-size: 1.1rem;
+            transition: all 0.2s ease-in;
         }
     }
 `

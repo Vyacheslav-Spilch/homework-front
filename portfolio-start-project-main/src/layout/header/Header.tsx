@@ -20,6 +20,6 @@ const StyledHeader = styled.header`
     align-items: center;
     padding: 0 20px;
     width: 100%;
-    background-color: rgb(77, 167, 236);
+    background-color: rgb(32, 37, 40);
 `
 

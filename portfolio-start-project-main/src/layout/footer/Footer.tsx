@@ -37,7 +37,7 @@ const StyledFooter = styled.footer`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(32, 37, 40);
+    background-color: #202528;
     padding: 20px;
     gap: 10px;
     min-height: 20vh;
@@ -54,11 +54,11 @@ const SocialIconsList = styled.ul`
 `
 
 const SocialItem = styled.li`
-    list-style-type: none;
+    
 `
 
 const SocialLink= styled.a`
-    cursor: pointer;
+    
 `
 
 const Copyright = styled.p`

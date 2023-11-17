@@ -21,9 +21,7 @@ const StyledContacts = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px 0;
     min-height: 60vh;
-    border-top: 1px solid #fff;
 `
 
 const StyledForm = styled.form`

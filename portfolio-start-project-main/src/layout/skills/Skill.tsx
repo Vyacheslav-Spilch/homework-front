@@ -31,8 +31,7 @@ const StyledSkill = styled.div`
 `
 
 const SkillsTitle = styled.div`
-    color: #fff;
-    font-size: 20px;
+    
 `
 
 const SkillText = styled.div`

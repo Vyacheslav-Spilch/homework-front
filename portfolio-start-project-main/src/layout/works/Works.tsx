@@ -12,7 +12,7 @@ const menuProjects = ["WebSite", "ToDo list", "Game App"]
 export const Works = () => {
     return (
         <StyledWorks>
-            <SectionTitle>My projects</SectionTitle>
+            <SectionTitle>My Works</SectionTitle>
             <Menu menuItems={menuProjects}/>
             <FlexWrapper justify={"space-around"}>
                 <Work title={"Check list"} text={"ALLallallalal"} src={picture_1}/>
@@ -23,7 +23,5 @@ export const Works = () => {
 }
 
 const StyledWorks = styled.section`
-    margin: 10px 0;
     min-height: 60vh;
-    border-top: 1px solid #fff;
 `

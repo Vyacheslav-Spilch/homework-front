@@ -14,9 +14,9 @@ import { Skill } from "./Skill";
 export const Skills = () => {
     return (
         <StyledSkills>
-            <SectionTitle>My skills</SectionTitle>
             <Container>
-                <FlexWrapper wrap={"wrap"} gap={"50px"}>
+            <SectionTitle margin={"0 0 40px"} >My skills</SectionTitle>
+                <FlexWrapper wrap={"wrap"} gap={"50px"} justify={"space-evenly"}>
                 <Skill IconId={"html"} 
                 title={"HTML5"} 
                 description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
@@ -24,16 +24,13 @@ export const Skills = () => {
                 title={"CSS3"} 
                 description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
                 <Skill IconId={"js"} 
-                title={"JS"} 
+                title={"JavaScript"} 
                 description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"html"} 
-                title={"HTML5"} 
+                <Skill IconId={"typescript"} 
+                title={"TypeScript"} 
                 description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"css"} 
-                title={"CSS3"} 
-                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"js"} 
-                title={"JS"} 
+                <Skill IconId={"react"} 
+                title={"React JS"} 
                 description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
             </FlexWrapper>
             </Container>
@@ -42,11 +39,11 @@ export const Skills = () => {
 }
 
 const StyledSkills = styled.section`
-    min-height: 100vh;
-    display: flex;
+    /* min-height: 100vh; */
+    /* display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
 `
 
 

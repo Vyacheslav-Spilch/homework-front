@@ -27,7 +27,7 @@ const StyledSkill = styled.div`
     align-items: center;
     gap: 10px;
     padding: 10px;
-    width: calc(100% / 3);
+    width: 30%;
 `
 
 const SkillsTitle = styled.div`
@@ -35,5 +35,5 @@ const SkillsTitle = styled.div`
 `
 
 const SkillText = styled.div`
-    
+    text-align: center;
 `

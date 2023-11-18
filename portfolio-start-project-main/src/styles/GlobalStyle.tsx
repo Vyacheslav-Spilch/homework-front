@@ -37,7 +37,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${theme.colors.secondaryBg};
     }
 
-    /* section {
-        padding: 0;
-    } */
+    section {
+        padding: 50px 0;
+    }
 `

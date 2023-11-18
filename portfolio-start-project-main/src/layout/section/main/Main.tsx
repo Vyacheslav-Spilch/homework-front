@@ -41,7 +41,7 @@ const PhotoWrapper = styled.div`
         height: 470px;
         border: 5px solid ${theme.colors.accent};
         left: 35px;
-        top: -10px;
+        top: -20px;
         z-index: -1;
         position: absolute;
     }
@@ -51,7 +51,7 @@ const Photo = styled.img`
     width: 350px;
     height: 430px;
     object-fit: cover;
-    margin: 10px;
+    /* margin: 10px; */
 `
 const SmallText = styled.span`
     

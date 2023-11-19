@@ -11,13 +11,13 @@ export const SectionTitle = styled.h2<SectionTitlePropsType>`
     text-align: center;
     font-weight: 600;
     letter-spacing: 5px;
-    margin: ${props => props.margin || "0px"};
+    margin: ${props => props.margin || "0 0 90px"};
 
     position: relative;
     &::before {
         content: " ";
         display: inline-block;
-        bottom: -20px;
+        bottom: -30px;
         height: 2px;
         background-color: ${theme.colors.accent};
         left: 50%;

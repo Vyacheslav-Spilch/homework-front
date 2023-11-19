@@ -6,7 +6,7 @@ import { SectionTitle } from "../../../components/SectionTitle";
 export const Contacts = () => {
     return (
         <StyledContacts>
-            <SectionTitle>Contact</SectionTitle>
+            <SectionTitle >Contact</SectionTitle>
             <StyledForm>
                 <Field placeholder={"Name"} />
                 <Field placeholder={"Subject"} />
@@ -21,7 +21,6 @@ const StyledContacts = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 60vh;
 `
 
 const StyledForm = styled.form`

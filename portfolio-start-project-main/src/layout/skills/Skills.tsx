@@ -15,26 +15,26 @@ export const Skills = () => {
     return (
         <StyledSkills>
             <Container>
-            <SectionTitle margin={"0 0 40px"} >My skills</SectionTitle>
-                <FlexWrapper wrap={"wrap"} gap={"50px"} justify={"space-evenly"}>
-                <Skill IconId={"html"} 
-                title={"HTML5"} 
-                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"css"} 
-                title={"CSS3"} 
-                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"js"} 
-                title={"JavaScript"} 
-                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"typescript"} 
-                title={"TypeScript"} 
-                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-                <Skill IconId={"react"} 
-                title={"React JS"} 
-                description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
-            </FlexWrapper>
-            </Container>
-        </StyledSkills>
+                <SectionTitle>My skills</SectionTitle>
+                    <FlexWrapper wrap={"wrap"} gap={"50px"} justify={"space-evenly"}>
+                        <Skill IconId={"html"} 
+                        title={"HTML5"} 
+                        description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
+                        <Skill IconId={"css"} 
+                        title={"CSS3"} 
+                        description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
+                        <Skill IconId={"js"} 
+                        title={"JavaScript"} 
+                        description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
+                        <Skill IconId={"typescript"} 
+                        title={"TypeScript"} 
+                        description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
+                        <Skill IconId={"react"} 
+                        title={"React JS"} 
+                        description={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolores dicta inventore. Laudantium quis nostrum minus velit, est, omnis labore consequatur officia magnam tempore voluptatum corrupti."}/>
+                </FlexWrapper>
+                </Container>
+            </StyledSkills>
     )
 }
 

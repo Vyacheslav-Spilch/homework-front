@@ -40,26 +40,20 @@ const StyledFooter = styled.footer`
     background-color: #202528;
     padding: 20px;
     gap: 10px;
-    min-height: 20vh;
     text-align: center;
 `
 
-const Name = styled.span`
-    
-`
+const Name = styled.span``
+
 const SocialIconsList = styled.ul`
     display: flex;
     justify-content: space-around;
     gap: 15px;
 `
 
-const SocialItem = styled.li`
-    
-`
+const SocialItem = styled.li``
 
-const SocialLink= styled.a`
-    
-`
+const SocialLink= styled.a``
 
 const Copyright = styled.p`
     font-size: 0.7rem;

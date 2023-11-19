@@ -13,11 +13,8 @@ export const Testimony = () => {
                 <Icon IconId={"home"}/>
                 <Slider />
             </FlexWrapper>
-            
         </StyledTestimony>
     )
 }
 
-const StyledTestimony = styled.section`
-    min-height: 60vh;
-`
+const StyledTestimony = styled.section``

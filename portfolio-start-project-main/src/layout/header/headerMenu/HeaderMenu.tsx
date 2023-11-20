@@ -32,7 +32,6 @@ const StyledMenu = styled.nav`
         justify-content: center;
         gap: 30px;
         list-style-type: none;
-        
     }
     a {
         text-decoration: none;
@@ -42,7 +41,6 @@ const StyledMenu = styled.nav`
         cursor: pointer;
         &:hover {
             color: #fff;
-            font-size: 1.1rem;
             transition: all 0.2s ease-in;
         }
     }

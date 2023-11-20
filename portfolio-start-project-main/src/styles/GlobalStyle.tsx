@@ -9,12 +9,17 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    *::selection {
+        color: ${theme.colors.font};
+        background-color: ${theme.colors.fontLink};
+    }
 
     body {
         color: ${theme.colors.font};
         font-family: 'Playfair Display', serif;
         line-height: 1.2;
     }
+    
 
     a {
         text-decoration: none;
@@ -22,6 +27,13 @@ export const GlobalStyle = createGlobalStyle`
 
     ul {
         list-style-type: none;
+    }
+    li {
+        transition: all 0.2s ease-in;
+    }
+    li:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease-in;
     }
 
     button {
@@ -40,4 +52,6 @@ export const GlobalStyle = createGlobalStyle`
     section {
         padding: 100px 0;
     }
+
+
 `

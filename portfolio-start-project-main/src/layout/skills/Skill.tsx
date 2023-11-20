@@ -30,8 +30,6 @@ export const Skill = (props: SkillPropsType) => {
 const StyledSkill = styled.div`
     padding: 10px;
     width: 30%;
-    /* border: 1px solid #fff; */
-    
 `
 
 const SkillsTitle = styled.h3`
@@ -63,5 +61,4 @@ const IconWrapper = styled.div`
 
             position: absolute;
         }
-
 `

@@ -36,6 +36,7 @@ const Image = styled.img`
 
 const Title = styled.h3`
     letter-spacing: 2px;
+    text-transform: capitalize;
 `
 const Text = styled.p`
     

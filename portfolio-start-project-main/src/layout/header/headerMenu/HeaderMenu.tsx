@@ -33,15 +33,11 @@ const StyledMenu = styled.nav`
         gap: 30px;
         list-style-type: none;
     }
-    a {
-        text-decoration: none;
-        color: rgb(255, 255, 255, 0.6);
-        font-weight: bold;
+    li {
         transition: all 0.2s ease-in;
-        cursor: pointer;
-        &:hover {
-            color: #fff;
-            transition: all 0.2s ease-in;
-        }
+    }
+    li:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease-in;
     }
 `

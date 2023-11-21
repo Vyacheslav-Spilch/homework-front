@@ -22,19 +22,32 @@ export const GlobalStyle = createGlobalStyle`
     
 
     a {
+        color: rgb(255, 255, 255, 0.5);
+        font-weight: bold;
         text-decoration: none;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
+    a:hover {
+        color: ${theme.colors.font};
+        transition: all 0.4s ease-in;
     }
 
     ul {
         list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style-type: none;
     }
-    li {
+
+    /* li {
         transition: all 0.2s ease-in;
     }
     li:hover {
         transform: scale(1.1);
         transition: all 0.2s ease-in;
-    }
+    } */
 
     button {
         background-color: unset;
@@ -53,5 +66,7 @@ export const GlobalStyle = createGlobalStyle`
         padding: 100px 0;
     }
 
-
+    p {
+        letter-spacing: 1.5px;
+    }
 `

@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import { theme } from "../styles/Theme";
 
 type ButtonPropsType = {
     width?: string,
+    background?: string,
 } 
 
 export const Button = styled.button<ButtonPropsType>`
@@ -10,13 +12,14 @@ export const Button = styled.button<ButtonPropsType>`
     min-height: 30px;
     border: 1px solid #fff;
     border-radius: 5px;
-    background-color: #3b3b42;
-    color: #fff;
+    text-transform: uppercase;
+    background-color: ${props => props.background || `${theme.colors.secondaryBg}`};
+    color: ${theme.colors.font};
     transition: all 0.2s ease-in;
     cursor: pointer;
     &:hover {
-        background-color: #fff;
-        color: #3b3b42;
+        background-color: ${theme.colors.font};
+        color: ${theme.colors.accent};
         transition: all 0.2s ease-in;
     }
 `

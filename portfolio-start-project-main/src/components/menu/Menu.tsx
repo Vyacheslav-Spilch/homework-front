@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { theme } from "../../styles/Theme";
+import { StyledLink } from "../StyledLink";
 
 
 
@@ -34,39 +35,34 @@ const StyledTabMenu = styled.nav`
         position: relative;
         z-index: 1;
     }
-
 `
 
-const StyledList = styled.li`
-    &:hover {
-        
-    } 
-`
+const StyledList = styled.li``
 
-const StyledLink = styled.a`
-    padding: 10px;
-    letter-spacing: 1px;
-    font-weight: 400;
-    text-transform: uppercase;
-    transition: 0.3s;
-    &:hover {
-        &::before {
-            height: 10px;
-            width: 100%;
-            background-color: ${theme.colors.accent};
-            transition: width 0.3s ease;
-        }
-    }
-    &::before {
-        content: "";
-        display: inline-block;
-        width: 10%;
-        left: 50%;
-        bottom: -5px;
-        transform: translate(-50%, 0px);
-        /* height: 10px; */
+// const StyledLink = styled.a`
+//     padding: 10px;
+//     letter-spacing: 1px;
+//     font-weight: 400;
+//     text-transform: uppercase;
+//     transition: 0.3s;
+//     &:hover {
+//         &::before {
+//             height: 10px;
+//             width: 100%;
+//             background-color: ${theme.colors.accent};
+//             transition: width 0.3s ease;
+//         }
+//     }
+//     &::before {
+//         content: "";
+//         display: inline-block;
+//         width: 10%;
+//         left: 50%;
+//         bottom: -5px;
+//         transform: translate(-50%, 0px);
+//         /* height: 10px; */
 
-        position: absolute;
-        z-index: -1;
-    }
-`
+//         position: absolute;
+//         z-index: -1;
+//     }
+// `

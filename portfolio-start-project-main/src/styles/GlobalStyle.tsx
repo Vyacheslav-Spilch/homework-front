@@ -29,8 +29,9 @@ export const GlobalStyle = createGlobalStyle`
         transition: all 0.2s ease-in;
     }
     a:hover {
+        font-weight: 600;
         color: ${theme.colors.font};
-        transition: all 0.4s ease-in;
+        transition: all 0.3s ease-in;
     }
 
     ul {
@@ -67,6 +68,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     p {
+        font-weight: 400;
+        font-size: 14px;
         letter-spacing: 1.5px;
+        line-height: 1.4;
     }
 `

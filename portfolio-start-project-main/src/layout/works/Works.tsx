@@ -17,8 +17,12 @@ export const Works = () => {
                 <SectionTitle>My Works</SectionTitle>
                 <Menu menuItems={menuProjects}/>
                 <FlexWrapper justify={"space-between"} >
-                    <Work title={"Check list"} text={"ALLallallalal"} src={picture_1}/>
-                    <Work title={"Interface testing"} text={"ALLallallalalTrallalla"} src={picture_2}/>
+                    <Work title={"Check list"} 
+                    text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. A earum, magnam nihil, possimus repudiandae cupiditate alias doloremque esse nesciunt laudantium, quos molestiae rerum ipsum nostrum? Fugiat sed ducimus eligendi id!"} 
+                    src={picture_1}/>
+                    <Work title={"Interface testing"} 
+                    text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. A earum, magnam nihil, possimus repudiandae cupiditate alias doloremque esse nesciunt laudantium, quos molestiae rerum ipsum nostrum? Fugiat sed ducimus eligendi id!"} 
+                    src={picture_2}/>
                 </FlexWrapper>
             </Container>
         </StyledWorks>

@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     
 
     a {
+        letter-spacing: 1.5px;
         color: rgb(255, 255, 255, 0.5);
         font-weight: bold;
         text-decoration: none;
@@ -41,14 +42,6 @@ export const GlobalStyle = createGlobalStyle`
         gap: 30px;
         list-style-type: none;
     }
-
-    /* li {
-        transition: all 0.2s ease-in;
-    }
-    li:hover {
-        transform: scale(1.1);
-        transition: all 0.2s ease-in;
-    } */
 
     button {
         background-color: unset;

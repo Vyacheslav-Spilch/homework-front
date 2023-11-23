@@ -8,8 +8,11 @@ type ButtonPropsType = {
 } 
 
 export const Button = styled.button<ButtonPropsType>`
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
     width: ${props => props.width || "30%"};
     min-height: 30px;
+    padding: 7px 10px;
     border: 1px solid #fff;
     border-radius: 5px;
     text-transform: uppercase;

@@ -11,4 +11,9 @@ export const theme = {
         borderColor: "#51586d",
         placeholderColor: "#51586d",
     },
+
+    media: {
+        tablet: "screen and (max-width: 768px)",
+        mobile: "screen and (max-width: 576px)",
+    }
 }

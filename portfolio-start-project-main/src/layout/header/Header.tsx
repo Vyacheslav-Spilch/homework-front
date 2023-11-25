@@ -7,6 +7,7 @@ import { Logo } from "../../components/logo/Logo";
 import { Menu } from "../../components/menu/Menu";
 import { theme } from "../../styles/Theme";
 import { HeaderMenu } from "./headerMenu/HeaderMenu";
+import { MobileMenu } from "./mobileMenu/MobileMenu";
 
 const menuHeader = ["Home", "Skills", "Works", "Testimony", "Contact"]
 
@@ -17,6 +18,7 @@ export const Header = () => {
                 <FlexWrapper justify={"space-between"} align={"center"}>
                     <Logo  />
                     <HeaderMenu menuItems={menuHeader}/>
+                    <MobileMenu menuItems={menuHeader}/>
                 </FlexWrapper>
             </Container>
         </StyledHeader>

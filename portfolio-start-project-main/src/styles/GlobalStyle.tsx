@@ -18,6 +18,7 @@ export const GlobalStyle = createGlobalStyle`
         color: ${theme.colors.font};
         font-family: 'Playfair Display', serif;
         line-height: 1.2;
+        min-width: 360px;
     }
     
 

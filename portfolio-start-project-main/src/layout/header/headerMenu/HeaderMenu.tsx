@@ -10,7 +10,7 @@ export const HeaderMenu = (props: {
     projectsItems?: Array <string>,
 }) => {
     return (
-        <StyledMenu >
+        <StyledHeaderMenu >
                 <ul>
                     {
                         props.menuItems.map((el, index) =>{
@@ -20,19 +20,18 @@ export const HeaderMenu = (props: {
                         })
                     }
                 </ul>
-            </StyledMenu>
+            </StyledHeaderMenu>
     )
 }
 
 
 
-const StyledMenu = styled.nav`
+const StyledHeaderMenu = styled.nav`
     padding: 30px;
     ul {
         display: flex;
         justify-content: center;
         gap: 30px;
-        list-style-type: none;
     }
     li {
         transition: all 0.2s ease-in;
@@ -61,5 +60,9 @@ const StyledMenu = styled.nav`
                 transition: all 0.3s ease-in;
             }
         }
+    }
+    
+    @media ${theme.media.tablet} {
+        display: none;
     }
 `

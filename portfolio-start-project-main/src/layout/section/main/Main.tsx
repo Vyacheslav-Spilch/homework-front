@@ -44,6 +44,11 @@ const PhotoWrapper = styled.div`
         top: -20px;
         z-index: -1;
         position: absolute;
+
+        @media ${theme.media.mobile} {
+            width: 314px;
+            height: 414px;
+        }
     }
 `
 
@@ -51,11 +56,13 @@ const Photo = styled.img`
     width: 350px;
     height: 430px;
     object-fit: cover;
-    /* margin: 10px; */
-`
-const SmallText = styled.span`
     
+    @media ${theme.media.mobile} {
+        width: 310px;
+        height: 380px;
+    }
 `
+const SmallText = styled.span``
 
 const Name = styled.h2`
     position: relative;
@@ -72,7 +79,7 @@ const Name = styled.h2`
             width: 100%;
             height: 10px;
             bottom: -3px;
-            background-color: rgb(44, 54, 115, 0.8);
+            background-color: ${theme.colors.accent};
             position: absolute;
             z-index: -1;
         }

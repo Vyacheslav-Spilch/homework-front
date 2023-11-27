@@ -67,4 +67,7 @@ export const GlobalStyle = createGlobalStyle`
         letter-spacing: 1.5px;
         line-height: 1.4;
     }
+    h2 {
+        letter-spacing: 2px;
+    }
 `

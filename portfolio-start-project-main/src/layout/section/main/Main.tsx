@@ -3,6 +3,7 @@ import styled from "styled-components";
 import photo from '../../../assets/images/photo.jpg1.jpeg'
 import { Container } from "../../../components/Container";
 import { FlexWrapper } from "../../../components/FlexWrapper";
+import { font } from "../../../styles/Common";
 import { theme } from "../../../styles/Theme";
 
 
@@ -40,15 +41,22 @@ const PhotoWrapper = styled.div`
         width: 350px;
         height: 470px;
         border: 5px solid ${theme.colors.accent};
-        left: 35px;
-        top: -20px;
+        top: -24px;
+        left: 32px;
         z-index: -1;
         position: absolute;
 
         @media ${theme.media.mobile} {
             width: 314px;
             height: 414px;
+            top: -17px;
+            left: 27px;
         }
+    }
+
+    @media ${theme.media.mobile} {
+        margin: 65px 0;
+
     }
 `
 
@@ -56,22 +64,27 @@ const Photo = styled.img`
     width: 350px;
     height: 430px;
     object-fit: cover;
+    margin-left: 20px;
     
     @media ${theme.media.mobile} {
         width: 310px;
         height: 380px;
     }
 `
-const SmallText = styled.span``
+const SmallText = styled.h2`
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 16px;
+`
 
 const Name = styled.h2`
+    ${font({weight: 700, Fmax: 50, Fmin: 30})};
     position: relative;
-    letter-spacing: 2px;
-    font-size: 40px;
-    font-weight: 700;
     margin: 10px 0;
+
     span {
         position: relative;
+        white-space: nowrap;
         z-index: 1;
         &::before {
             content: "";
@@ -84,10 +97,16 @@ const Name = styled.h2`
             z-index: -1;
         }
     }
+
+    @media ${theme.media.mobile} {
+        margin: 15px 0 22px;
+    }
 `
 
 const MainTitle = styled.h1`
-    font-weight: 400;
-    font-size: 27px;
+    /* font-weight: 400;
+    font-size: 27px; */
+
+    ${font({weight: 400, Fmax: 27, Fmin: 20})}
 `
 

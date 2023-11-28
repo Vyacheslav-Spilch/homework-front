@@ -28,7 +28,7 @@ export const Footer = () => {
                     </SocialLink>
                 </SocialItem>
             </SocialIconsList>
-            <Copyright>2023 Vycheslav Spilchevsky, all rights reserved</Copyright>
+            <Copyright>2023 Vyacheslav Spilchevsky, all rights reserved</Copyright>
         </StyledFooter>
     )
 }
@@ -51,9 +51,13 @@ const SocialIconsList = styled.ul`
     gap: 15px;
 `
 
-const SocialItem = styled.li``
+const SocialItem = styled.li`
+    
+`
 
-const SocialLink= styled.a``
+const SocialLink= styled.a`
+    
+`
 
 const Copyright = styled.p`
     font-size: 0.7rem;

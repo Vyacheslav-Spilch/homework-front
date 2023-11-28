@@ -29,7 +29,7 @@ export const Menu = (props: {
 
 const StyledTabMenu = styled.nav`
     ul {
-        margin: 40px 0;
+        margin: 0 0 40px;
     }
     li {
         position: relative;
@@ -37,7 +37,9 @@ const StyledTabMenu = styled.nav`
     }
 `
 
-const StyledList = styled.li``
+const StyledList = styled.li`
+    text-align: center;
+`
 
 // const StyledLink = styled.a`
 //     padding: 10px;

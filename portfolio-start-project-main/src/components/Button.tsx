@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { font } from "../styles/Common";
 import { theme } from "../styles/Theme";
 
 type ButtonPropsType = {
@@ -8,8 +9,9 @@ type ButtonPropsType = {
 } 
 
 export const Button = styled.button<ButtonPropsType>`
+    ${font({Fmax: 16, Fmin: 12, lineHeight: 1.1})}
     font-family: 'Playfair Display', serif;
-    font-size: 16px;
+    /* font-size: 16px; */
     width: ${props => props.width || "30%"};
     min-height: 30px;
     padding: 7px 10px;

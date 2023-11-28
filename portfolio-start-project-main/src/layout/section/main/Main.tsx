@@ -78,13 +78,14 @@ const SmallText = styled.h2`
 `
 
 const Name = styled.h2`
-    ${font({weight: 700, Fmax: 50, Fmin: 30})};
+    ${font({weight: 700, Fmax: 45, Fmin: 28})};
     position: relative;
     margin: 10px 0;
 
     span {
         position: relative;
         white-space: nowrap;
+        text-align: center;
         z-index: 1;
         &::before {
             content: "";

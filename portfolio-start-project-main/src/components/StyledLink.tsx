@@ -1,7 +1,10 @@
 import styled from "styled-components"
+import { font } from "../styles/Common"
 import { theme } from "../styles/Theme"
 
 export const StyledLink = styled.a`
+    ${font({Fmax: 18, Fmin: 15})}
+    white-space: nowrap;
     padding: 10px;
     letter-spacing: 1px;
     font-weight: 400;

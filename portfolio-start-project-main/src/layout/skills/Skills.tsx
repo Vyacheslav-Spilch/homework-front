@@ -6,6 +6,7 @@ import { Container } from "../../components/Container";
 import { FlexWrapper } from "../../components/FlexWrapper";
 import { Icon } from "../../components/icon/icon";
 import { SectionTitle } from "../../components/SectionTitle";
+import { theme } from "../../styles/Theme";
 import { Skill } from "./Skill";
 
 
@@ -39,12 +40,10 @@ export const Skills = () => {
 }
 
 const StyledSkills = styled.section`
-    /* min-height: 100vh; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
+    
 `
+
+
 
 
 

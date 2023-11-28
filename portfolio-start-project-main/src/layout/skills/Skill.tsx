@@ -31,6 +31,10 @@ export const Skill = (props: SkillPropsType) => {
 const StyledSkill = styled.div`
     padding: 10px;
     width: 30%;
+
+    @media ${theme.media.mobile} {
+        width: 80%;
+    }
 `
 
 const SkillsTitle = styled.h3`

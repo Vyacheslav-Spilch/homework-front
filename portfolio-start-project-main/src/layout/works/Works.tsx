@@ -12,7 +12,7 @@ const menuProjects = ["WebSite", "ToDo list", "Portfolio"]
 
 export const Works = () => {
     return (
-        <StyledWorks>
+        <StyledWorks id="Works">
             <Container>
                 <SectionTitle>My Works</SectionTitle>
                 <Menu menuItems={menuProjects}/>

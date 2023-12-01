@@ -14,7 +14,7 @@ import { Skill } from "./Skill";
 
 export const Skills = () => {
     return (
-        <StyledSkills>
+        <StyledSkills id="Skills">
             <Container>
                 <SectionTitle>My skills</SectionTitle>
                     <FlexWrapper wrap={"wrap"} gap={"50px"} justify={"space-evenly"}>

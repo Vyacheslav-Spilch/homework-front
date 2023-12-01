@@ -10,6 +10,23 @@ import { HeaderMenu } from "./headerMenu/HeaderMenu";
 import { MobileMenu } from "./mobileMenu/MobileMenu";
 
 const menuHeader = ["Home", "Skills", "Works", "Testimony", "Contact"]
+// const menuHeader = [
+//     {
+//         id: "Home"
+//     },
+//     {
+//         id: "Skills"
+//     },
+//     {
+//         id: "Works"
+//     },
+//     {
+//         id: "Testimony"
+//     },
+//     {
+//         id: "Contact"
+//     },
+// ]
 
 export const Header = () => {
     return (

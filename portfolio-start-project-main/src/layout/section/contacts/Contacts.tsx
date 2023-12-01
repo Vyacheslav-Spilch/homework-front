@@ -6,7 +6,7 @@ import { theme } from "../../../styles/Theme";
 
 export const Contacts = () => {
     return (
-        <StyledContacts>
+        <StyledContacts id="Contact">
             <SectionTitle >Contact</SectionTitle>
             <StyledForm>
                 <Field placeholder={"Name"} />

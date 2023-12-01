@@ -1,15 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import { Icon } from "../../components/icon/icon";
+import { Logo } from "../../components/logo/Logo";
 
 export const Footer = () => {
     return (
-        <StyledFooter>
+        <StyledFooter >
             <Name>Vyacheslav</Name>
             <SocialIconsList>
                 <SocialItem>
                     <SocialLink>
-                        <Icon IconId={"telegram"} width={"30px"} height={"30px"}/>
+                        <Icon  IconId={"telegram"} width={"30px"} height={"30px"}/>
                     </SocialLink>
                 </SocialItem>
                 <SocialItem>
@@ -51,9 +52,7 @@ const SocialIconsList = styled.ul`
     gap: 15px;
 `
 
-const SocialItem = styled.li`
-    
-`
+const SocialItem = styled.li``
 
 const SocialLink= styled.a`
     

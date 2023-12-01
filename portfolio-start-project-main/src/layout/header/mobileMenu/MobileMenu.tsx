@@ -80,12 +80,12 @@ const MobileMenuPopup = styled.div<{isOpen: boolean}>`
         gap: 50px;
     }
 
-    /* ${props => props.isOpen && css<{isOpen: boolean}>`
+    ${props => props.isOpen && css<{isOpen: boolean}>`
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-    `} */
+    `}
     
 `
 
@@ -111,9 +111,9 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
         background-color: ${theme.colors.font};
         position: relative;
 
-        /* ${props => props.isOpen && css<{isOpen: boolean}>`
+        ${props => props.isOpen && css<{isOpen: boolean}>`
             background-color: rgba(0, 0, 0, 0.0);
-        `} */
+        `}
 
         &::before {
             content: "";
@@ -127,9 +127,9 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
             transform: translateY(-10px);
             position: absolute;
 
-            /* ${props => props.isOpen && css<{isOpen: boolean}>`
+            ${props => props.isOpen && css<{isOpen: boolean}>`
                 transform: rotate(-45deg) translateY(0);
-            `} */
+            `}
         }
         &::after {
             content: "";
@@ -143,9 +143,9 @@ const BurgerButton = styled.button<{isOpen: boolean}>`
             transform: translateY(10px);
             position: absolute;
 
-            /* ${props => props.isOpen && css<{isOpen: boolean}>`
+            ${props => props.isOpen && css<{isOpen: boolean}>`
                 transform: rotate(45deg) translateY(0);
-            `} */
+            `}
         }
     }
 `

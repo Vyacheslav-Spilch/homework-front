@@ -10,9 +10,9 @@ import { theme } from "../../../styles/Theme";
 
 export const Main = () => {
     return (
-        <StyledMain>
+        <StyledMain id="Home">
             <Container>
-                <FlexWrapper justify={"space-around"} align={"center"} wrap={"wrap"}>
+                <FlexWrapper justify={"space-around"} align={"center"} wrap={"wrap"} >
                     <div>
                         <SmallText>Hi there!</SmallText>
                         <Name>I am <span>Vyacheslav Spilchevsky</span></Name>

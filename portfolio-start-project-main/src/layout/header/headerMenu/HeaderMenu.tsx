@@ -15,7 +15,7 @@ export const HeaderMenu = (props: {
                     {
                         props.menuItems.map((el, index) =>{
                             return <li key={index}>
-                                <a href="">{el}</a>
+                                <a href={`#${el}`}>{el}</a>
                             </li>
                         })
                     }
